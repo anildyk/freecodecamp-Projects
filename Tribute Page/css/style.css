@@ -1,0 +1,11 @@
+body {
+  background-color: #a3d5d3;
+}
+.header-image{
+  padding:10px 10px 20px 10px;
+  background-color:#fff;
+}
+.target1-content,.target2-content, .target3-content{
+	margin-top:30px;
+	background-color:white;
+}
