@@ -6,6 +6,7 @@
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" type="text/css" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
@@ -31,7 +32,7 @@
 				</div>				
 			</nav>
 			<div id="about" class="about container-fluid">
-				<h1 class="name text-center"> Anil Kumar</h1>
+				<h1 class="heading-font text-center" style="padding-top:25%;"> Anil Kumar</h1>
 				<hr class="draw_line"/>
 				<h4 class="text-center"> Computer Programmer | Web Enthusiast </h4>
 				<!--
@@ -50,7 +51,53 @@
 				<div><a href="#skills"><p class="enter text-center"> Enter </p></a></div>
 			</div>
 		</div>
-		<div class="skills" id="skills">
+		<div class="skills container-fluid" id="skills">
+			<h1 class="heading-font text-center"> Skills </h1>
+			<div class="shape1"><i class="material-icons">account_circle</i></div>
+			<div class="shape2"><i class="material-icons">account_circle</i></div>
+			<div class="shape3"><i class="material-icons">account_circle</i></div>
+			<div class="shape4"><i class="material-icons">account_circle</i></div>
+		</div>
+		<div class="contact container-fluid">
+			<h1 class="heading-font text-center"> Contact Me </h1>
+			<hr class="draw-line"/>
+			<div class="row">
+				<div class="col-md-6">
+					<form id="contactForm">
+						<input class="form-control" type="text" placeholder="Subject"><br/>
+						<input class="form-control" type="email" placeholder="Enter your Eamil ID"><br/>
+						<select name="occupation" placeholder="Select Occupation">
+						<option value="Student"></option>
+						<option value="Programmer"></option>
+						<option value="Child"></option>
+						<option value="Professor"></option>
+						<option value="Other"></option>
+					</select>
+						<input class="form-control" type="text-field" placeholder="Your message/query">
+					<br/>
+						
+						<input class="btn btn-info btn-block" type="submit" value="Send">
+					</form>
+					
+				</div>
+				<div class="col-md-6">
+					Please write something into it. 
+				</div>
+			</div>
+		</div>
+		<div class="footer container-fluid">
+			<div class="social row">
+				<div class="text-center text-bold col-md-6">
+					Made with the help of freecodecamp and Stackoverflow.
+				</div>
+				<div class="text-center col-md-6">
+					<a href="https://www.facebook.com/anildyk"><i class="fa fa-facebook fa-border fa-2x"></i></a>
+					<a href="https://www.twitter.com/anildyk"><i class="fa fa-twitter fa-border fa-2x"></i></a>
+					<a href="https://www.linkedin.com/anildyk"><i class="fa fa-linkedin fa-border fa-2x"></i></a>
+					<a href="https://www.github.com/anildyk"><i class="fa fa-github fa-border fa-2x"></i></a>
+				</div>
+			</div>
+			<div class="copyright container-fluid"> <p> Anil Kumar &copy; 2017. All Rights Reserved. </p> </div>
 		</div>
 		<!-- About section-->
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
@@ -58,3 +105,4 @@
 		<script type="text/javascript" src="index.js"></script>
 	</body>
 </html>
+		
