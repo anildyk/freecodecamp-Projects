@@ -67,3 +67,20 @@
     color:#000;
     padding:20px;
 }
+.contact{
+    background-color:silver;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.social{
+    background-color:#777; 
+    padding: 20px;
+}
+.footer{
+    background-color:#444;
+    margin-bottom:0;
+    pading:20px;
+}
+.copyright{
+    padding: 40px;
+}
